@@ -1,5 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\KegiatanController;
 
-Route::view('/kegiatan', 'kegiatan.index')->name('kegiatan.index');
+Route::resource('kegiatan', KegiatanController::class);

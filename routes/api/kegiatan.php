@@ -1,5 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\KegiatanController;
 
-// Route::apiResource('warga', \App\Http\Controllers\Api\WargaController::class);
+Route::apiResource('kegiatan', KegiatanController::class);

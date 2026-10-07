@@ -2,4 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Route::apiResource('warga', \App\Http\Controllers\Api\WargaController::class);
+use App\Http\Controllers\Api\PemeriksaanController;
+
+Route::apiResource(
+    'pemeriksaan',
+    PemeriksaanController::class
+);

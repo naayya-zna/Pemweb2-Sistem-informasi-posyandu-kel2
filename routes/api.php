@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\Api\PemeriksaanController;
 use App\Http\Controllers\Api\AuthController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,3 +20,4 @@ Route::name('api.')->middleware('auth:sanctum')->group(function () {
     require __DIR__.'/api/jadwal.php';      // Naya
     require __DIR__.'/api/pemeriksaan.php'; // Ghozi
 });
+

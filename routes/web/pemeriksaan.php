@@ -1,5 +1,7 @@
+```php
 <?php
 
+use App\Http\Controllers\PemeriksaanController;
 use Illuminate\Support\Facades\Route;
 
-Route::view('/pemeriksaan', 'pemeriksaan.index')->name('pemeriksaan.index');
+Route::resource('pemeriksaan', PemeriksaanController::class);

@@ -1,4 +1,3 @@
-```blade
 <nav style="background: white; border-bottom: 1px solid #ddd;">
 
     <div style="
@@ -105,4 +104,3 @@
     </div>
 
 </nav>
-```

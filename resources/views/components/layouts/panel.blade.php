@@ -1,4 +1,3 @@
-```blade
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -18,7 +17,6 @@
 
 <body class="min-h-screen bg-slate-50 text-slate-800 antialiased">
 
-<<<<<<< HEAD
     <header
         x-data="{
             user: null,
@@ -208,8 +206,6 @@
 
 </body>
 </html>
-```
-=======
 <header
     x-data="{
         user: null,
@@ -336,10 +332,6 @@
 
 </main>
 
-
-
-
-
 {{-- Toast --}}
 <div x-data="{ items: [], n: 0 }"
 
@@ -376,4 +368,4 @@
 
 </body>
 </html>
->>>>>>> upstream/main
+

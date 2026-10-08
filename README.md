@@ -1,58 +1,283 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Sistem Informasi Posyandu
+> Digitalisasi Pengelolaan Data dan Pelayanan Posyandu
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+---
 
-## About Laravel
+## Informasi Kelompok
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **Nomor Kelompok:** Team 10
+- **Shift Praktikum:** Shift A
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Anggota Kelompok
 
-## Learning Laravel
+| No | Nama Lengkap | NIM | Shift Awal | Shift Akhir | Jobdesk / Kontribusi | Link Video Penjelasan |
+|---|---|---|---|---|---|---|
+| 1 | [Nama Lengkap] | [NIM] | [Shift Awal] | [Shift Akhir] | CRUD Warga | [YouTube/Drive](https://...) |
+| 2 | [Nama Lengkap] | [NIM] | [Shift Awal] | [Shift Akhir] | CRUD Kegiatan | [YouTube/Drive](https://...) |
+| 3 | [Nama Lengkap] | [NIM] | [Shift Awal] | [Shift Akhir] | CRUD Pemeriksaan | [YouTube/Drive](https://...) |
+| 4 | [Nama Lengkap] | [NIM] | [Shift Awal] | [Shift Akhir] | CRUD Jadwal & Fitur lainnya | [YouTube/Drive](https://...) |
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Deskripsi Aplikasi
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+**Sistem Informasi Posyandu** merupakan aplikasi berbasis web yang dibuat untuk membantu proses pengelolaan data dan pelayanan Posyandu secara lebih terstruktur dan terpusat.
 
-## Agentic Development
+Aplikasi ini menyediakan berbagai fitur untuk mengelola data warga, kegiatan Posyandu, jadwal kegiatan, pemeriksaan kesehatan, serta riwayat pemeriksaan warga. Dengan adanya sistem ini, proses pencatatan dan pengelolaan data Posyandu dapat dilakukan secara digital sehingga informasi lebih mudah dikelola dan diakses.
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+Sistem memiliki beberapa jenis pengguna dengan hak akses yang berbeda, yaitu **Admin, Kader, dan Warga**. Setiap pengguna memiliki akses sesuai dengan kebutuhan dan perannya dalam sistem.
+
+---
+
+## Penjelasan Teknis
+
+### 1. Teknologi (Tech Stack)
+
+- **Backend:** Laravel 13.34.0
+- **Bahasa Pemrograman:** PHP 8.3.25
+- **Frontend:** Blade, Tailwind CSS, JavaScript
+- **Database:** MySQL
+- **Build Tool:** Vite
+- **API:** Laravel REST API
+- **Authentication:** Laravel Authentication & Session
+- **Version Control:** Git & GitHub
+
+---
+
+### 2. Fitur Utama & Modul
+
+#### Autentikasi dan Otorisasi
+
+- Login pengguna
+- Register pengguna
+- Logout
+- Pengelolaan session pengguna
+- Role pengguna:
+  - Admin
+  - Kader
+  - Warga
+- Pembatasan akses berdasarkan role menggunakan middleware
+
+#### Modul Warga
+
+- Melihat daftar warga
+- Melihat detail warga
+- Menambahkan data warga
+- Mengubah data warga
+- Menghapus data warga
+- Pencarian data warga
+- Pengelompokan data warga berdasarkan kategori
+- Melihat riwayat pemeriksaan warga
+
+#### Modul Pemeriksaan
+
+- Melihat data pemeriksaan
+- Menambahkan data pemeriksaan
+- Mengubah data pemeriksaan
+- Menghapus data pemeriksaan
+- Mencatat hasil pemeriksaan kesehatan warga
+- Melihat riwayat pemeriksaan warga
+
+#### Modul Jadwal
+
+- Melihat daftar jadwal Posyandu
+- Melihat detail jadwal
+- Menampilkan tanggal kegiatan
+- Menampilkan waktu kegiatan
+- Menampilkan informasi kegiatan yang akan datang
+
+#### Modul Kegiatan
+
+- Melihat daftar kegiatan Posyandu
+- Melihat detail kegiatan
+- Menambahkan kegiatan
+- Mengubah kegiatan
+- Menghapus kegiatan
+- Upload foto kegiatan
+- Menampilkan status kegiatan
+
+#### Dashboard dan Informasi
+
+- Menampilkan jumlah warga
+- Menampilkan jumlah kegiatan aktif
+- Menampilkan jumlah jadwal yang akan datang
+- Menampilkan informasi kegiatan Posyandu
+- Menampilkan informasi jadwal terbaru
+
+---
+
+### 3. Skema Data Singkat
+
+Relasi utama yang digunakan dalam sistem antara lain:
+
+- `users` → `warga`
+  - User dapat terhubung dengan data warga melalui `warga_id`.
+
+- `warga` → `pemeriksaans`
+  - Satu warga dapat memiliki beberapa data pemeriksaan.
+
+- `users` → `pemeriksaans`
+  - User dapat terhubung sebagai pemeriksa pada data pemeriksaan.
+
+- `kegiatan` → `jadwal`
+  - Jadwal dapat berkaitan dengan kegiatan Posyandu.
+
+- `warga` → `riwayat pemeriksaan`
+  - Data riwayat digunakan untuk menampilkan catatan pemeriksaan warga.
+
+---
+
+## Panduan Instalasi Lokal
+
+### 1. Clone Repository
 
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+git clone https://github.com/naayya-zna/Pemweb2-Sistem-informasi-posyandu-kel2.git
+cd Pemweb2-Sistem-informasi-posyandu-kel2
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+### 2. Install Dependensi
 
-## Contributing
+Install dependency Laravel:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```bash
+composer install
+```
 
-## Code of Conduct
+Install dependency frontend:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```bash
+npm install
+```
 
-## Security Vulnerabilities
+### 3. Konfigurasi Environment
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Copy file `.env.example` menjadi `.env`:
 
-## License
+```bash
+cp .env.example .env
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Kemudian generate application key:
+
+```bash
+php artisan key:generate
+```
+
+### 4. Konfigurasi Database
+
+Buat database MySQL, kemudian sesuaikan konfigurasi pada file `.env`.
+
+Contoh:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nama_database
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 5. Migrasi Database
+
+Jalankan migrasi:
+
+```bash
+php artisan migrate
+```
+
+Jika project menggunakan seeder:
+
+```bash
+php artisan migrate --seed
+```
+
+### 6. Jalankan Aplikasi
+
+Jalankan server Laravel:
+
+```bash
+php artisan serve
+```
+
+Kemudian jalankan Vite:
+
+```bash
+npm run dev
+```
+
+Aplikasi dapat diakses melalui:
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+## Struktur Project
+
+Struktur utama project Laravel:
+
+```text
+Pemweb2-Sistem-informasi-posyandu-kel2/
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   └── Middleware/
+│   └── Models/
+├── database/
+│   ├── migrations/
+│   └── seeders/
+├── resources/
+│   ├── css/
+│   ├── js/
+│   └── views/
+│       ├── auth/
+│       ├── components/
+│       ├── kegiatan/
+│       ├── jadwal/
+│       ├── pemeriksaan/
+│       └── warga/
+├── routes/
+│   ├── api.php
+│   ├── web.php
+│   ├── api/
+│   └── web/
+├── public/
+├── .env.example
+├── composer.json
+├── package.json
+└── README.md
+```
+
+---
+
+## Hak Akses Pengguna
+
+| Fitur | Admin | Kader | Warga |
+|---|---|---|---|
+| Login | ✅ | ✅ | ✅ |
+| Melihat Data Warga | ✅ | ✅ | ✅ |
+| Menambah Warga | ✅ | ❌ | ❌ |
+| Mengubah Warga | ✅ | ❌ | ❌ |
+| Menghapus Warga | ✅ | ❌ | ❌ |
+| Melihat Jadwal | ✅ | ✅ | ✅ |
+| Melihat Kegiatan | ✅ | ✅ | ✅ |
+| Mengelola Pemeriksaan | ✅ | ✅ | ❌ |
+| Melihat Riwayat Pemeriksaan | ✅ | ✅ | ✅ |
+
+---
+
+## Video Penjelasan
+
+Link video penjelasan masing-masing anggota:
+
+- **Anggota 1:** [Link Video](https://...)
+- **Anggota 2:** [Link Video](https://...)
+- **Anggota 3:** [Link Video](https://...)
+- **Anggota 4:** [Link Video](https://...)
+
+---

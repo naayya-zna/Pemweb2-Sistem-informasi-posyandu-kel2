@@ -50,8 +50,26 @@
 </header>
 
 {{-- Hero --}}
-<section class="bg-[#0B2B26] text-[#DAF1DE]">
+<section 
+    class="relative overflow-hidden bg-[#0B2B26] text-[#DAF1DE]"
+    style="
+        background-image:
+            linear-gradient(
+                to right,
+                #0B2B26 0%,
+                rgba(11, 43, 38, 0.97) 15%,
+                rgba(11, 43, 38, 0.85) 30%,
+                rgba(11, 43, 38, 0.55) 50%,
+                rgba(11, 43, 38, 0.20) 70%,
+                rgba(11, 43, 38, 0) 100%
+            ),
+            url('{{ asset('images/gambarposyandu.jpg') }}');
+        background-size: cover;
+        background-position: center;
+    "
+>
     <div class="mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 sm:px-6 lg:grid-cols-2 lg:gap-14 lg:py-20">
+
         <div>
             <h1 class="text-3xl font-bold leading-snug sm:text-4xl lg:text-5xl lg:leading-tight">Kesehatan warga tercatat rapi, jadwal Posyandu mudah dicari.</h1>
             <p class="mt-5 max-w-md text-[#8EB69B]">Kader mencatat pemeriksaan dalam satu sistem. Warga mendaftar kegiatan dan melihat riwayat kesehatannya sendiri dari ponsel.</p>

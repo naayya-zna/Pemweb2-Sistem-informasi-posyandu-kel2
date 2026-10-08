@@ -121,7 +121,7 @@
         </form>
     </div>
 
-    <div class="hidden overflow-hidden rounded-2xl border border-[#DAF1DE] bg-white shadow-sm md:block">
+    <div class="block overflow-hidden rounded-2xl border border-[#DAF1DE] bg-white shadow-sm">
         <div class="overflow-x-auto">
             <table class="min-w-full text-sm">
                 <thead class="bg-[#DAF1DE]/50 text-left text-xs font-bold uppercase tracking-wider text-[#051F20]">

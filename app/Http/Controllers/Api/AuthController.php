@@ -54,7 +54,6 @@ class AuthController extends Controller
             ],
         ], 201);
     }
-
     public function login(LoginRequest $request): JsonResponse
     {
         $user = User::where('email', $request->email)->first();
@@ -91,11 +90,17 @@ class AuthController extends Controller
 
     public function logout(Request $request): JsonResponse
     {
-        // Hapus API token
-        $request->user()->currentAccessToken()->delete();
+    // Hapus token Sanctum jika ada
+        $user = $request->user();
 
-        // Akhiri web session
-        Auth::guard('web')->logout();
+        if ($user && $user->currentAccessToken()) {
+            $user->currentAccessToken()->delete();
+        }
+
+    // Logout session web
+    Auth::guard('web')->logout();
+
+    // Hapus session
         if ($request->hasSession()) {
             $request->session()->invalidate();
             $request->session()->regenerateToken();

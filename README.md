@@ -371,8 +371,8 @@ Perintah tersebut menampilkan daftar route API yang terdaftar, termasuk metode H
 Link video penjelasan masing-masing anggota:
 
 - **Anggota 1:** [Link Video](https://youtu.be/0QB7TKRvrNk?si=GyIpvIwCL7OgHx6_)
-- **Anggota 2:** [Link Video](https://...)
-- **Anggota 3:** [Link Video](https://...)
+- **Anggota 2:** [Link Video](https://youtu.be/Vp5Fea1xhKY))
+- **Anggota 3:** [Link Video](https://youtu.be/xVi1wBf11q8?si=hA1_afuPSGo-VKPC)
 - **Anggota 4:** [Link Video](https://youtu.be/85LLGqTDB9Q)
 
 ---

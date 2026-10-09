@@ -14,7 +14,7 @@
 
 | No | Nama Lengkap | NIM | Shift Awal | Shift Akhir | Jobdesk / Kontribusi | Link Video Penjelasan |
 |---|---|---|---|---|---|---|
-| 1 | Lulu Waskito Adi | H1H024001 | [Shift Awal] | A | CRUD Warga | [YouTube/Drive](https://...) |
+| 1 | Lulu Waskito Adi | H1H024001 | A | A | CRUD Warga | [YouTube/Drive](https://youtu.be/0QB7TKRvrNk?si=GyIpvIwCL7OgHx6_) |
 | 2 | Ghozi Itmam Aldani | H1H024003 | [Shift Awal] | A | CRUD Kegiatan | [YouTube/Drive](https://...) |
 | 3 | Diva Syahita Mawarni | H1H024015 | [Shift Awal] | A | CRUD Pemeriksaan | [YouTube/Drive](https://...) |
 | 4 | Kaira Meilasya Nayada | H1H024020 | [Shift Awal] | A | CRUD Jadwal | [YouTube/Drive](https://youtu.be/85LLGqTDB9Q) |
@@ -275,7 +275,7 @@ Pemweb2-Sistem-informasi-posyandu-kel2/
 
 Link video penjelasan masing-masing anggota:
 
-- **Anggota 1:** [Link Video](https://...)
+- **Anggota 1:** [Link Video](https://youtu.be/0QB7TKRvrNk?si=GyIpvIwCL7OgHx6_)
 - **Anggota 2:** [Link Video](https://...)
 - **Anggota 3:** [Link Video](https://...)
 - **Anggota 4:** [Link Video](https://youtu.be/85LLGqTDB9Q)

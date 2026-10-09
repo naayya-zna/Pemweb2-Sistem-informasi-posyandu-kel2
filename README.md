@@ -14,10 +14,10 @@
 
 | No | Nama Lengkap | NIM | Shift Awal | Shift Akhir | Jobdesk / Kontribusi | Link Video Penjelasan |
 |---|---|---|---|---|---|---|
-| 1 | [Nama Lengkap] | [NIM] | [Shift Awal] | [Shift Akhir] | CRUD Warga | [YouTube/Drive](https://...) |
-| 2 | [Nama Lengkap] | [NIM] | [Shift Awal] | [Shift Akhir] | CRUD Kegiatan | [YouTube/Drive](https://...) |
-| 3 | [Nama Lengkap] | [NIM] | [Shift Awal] | [Shift Akhir] | CRUD Pemeriksaan | [YouTube/Drive](https://...) |
-| 4 | [Nama Lengkap] | [NIM] | [Shift Awal] | [Shift Akhir] | CRUD Jadwal & Fitur lainnya | [YouTube/Drive](https://...) |
+| 1 | Lulu Waskito Adi | H1H024001 | [Shift Awal] | A | CRUD Warga | [YouTube/Drive](https://...) |
+| 2 | Ghozi Itmam Aldani | H1H024003 | [Shift Awal] | A | CRUD Kegiatan | [YouTube/Drive](https://...) |
+| 3 | Diva Syahita Mawarni | H1H024015 | [Shift Awal] | A | CRUD Pemeriksaan | [YouTube/Drive](https://...) |
+| 4 | Kaira Meilasya Nayada | H1H024020 | [Shift Awal] | A | CRUD Jadwal | [YouTube/Drive](https://youtu.be/85LLGqTDB9Q) |
 
 ---
 
@@ -278,6 +278,6 @@ Link video penjelasan masing-masing anggota:
 - **Anggota 1:** [Link Video](https://...)
 - **Anggota 2:** [Link Video](https://...)
 - **Anggota 3:** [Link Video](https://...)
-- **Anggota 4:** [Link Video](https://...)
+- **Anggota 4:** [Link Video](https://youtu.be/85LLGqTDB9Q)
 
 ---

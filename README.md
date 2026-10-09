@@ -15,7 +15,7 @@
 | No | Nama Lengkap | NIM | Shift Awal | Shift Akhir | Jobdesk / Kontribusi | Link Video Penjelasan |
 |---|---|---|---|---|---|---|
 | 1 | Lulu Waskito Adi | H1H024001 | A | A | CRUD Warga | [YouTube/Drive](https://youtu.be/0QB7TKRvrNk?si=GyIpvIwCL7OgHx6_) |
-| 2 | Ghozi Itmam Aldani | H1H024003 | [Shift Awal] | A | CRUD Kegiatan | [[https://youtu.be/Vp5Fea1xhKY](https://youtu.be/Vp5Fea1xhKY)) |
+| 2 | Ghozi Itmam Aldani | H1H024003 | [Shift Awal] | A | CRUD Kegiatan | [YouTube/Drive](https://youtu.be/Vp5Fea1xhKY)) |
 | 3 | Diva Syahita Mawarni | H1H024015 | [Shift Awal] | A | CRUD Pemeriksaan | [YouTube/Drive](https://youtu.be/xVi1wBf11q8?si=hA1_afuPSGo-VKPC) |
 | 4 | Kaira Meilasya Nayada | H1H024020 | [Shift Awal] | A | CRUD Jadwal | [YouTube/Drive](https://youtu.be/85LLGqTDB9Q) |
 
